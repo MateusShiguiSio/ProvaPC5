@@ -6,9 +6,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validação básica
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $to = "seuemail@exemplo.com"; // Substitua pelo seu e-mail
+        $to = "trabalhosescolares@gmail.com"; // Substitua pelo seu e-mail
         $subject = "Contato do site";
-        $body = "Nome: $nome\nE-mail: $email\nMensagem:\n$mensagem";
+        $body = "Nome: $Nome\nE-mail: $email\nMensagem:\n$mensagem";
         $headers = "From: $email";
 
         // Tenta enviar o e-mail
@@ -23,4 +23,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Método de requisição inválido.";
 }
-?>
