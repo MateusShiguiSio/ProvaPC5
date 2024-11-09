@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif; /* Fonte padrão */
     font-size: 18px;
 header {
-    background: #191970;
+    background: #ffffff;
     color: #191970;
     padding: 20px 0;
     text-align: center;
@@ -41,13 +41,13 @@ main {
     margin: 20px auto;
     background: #ffffff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 54, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .hero {
     text-align: center;
     padding: 20px;
-    background: #191970;
+    background: #ffffff;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -59,7 +59,7 @@ main {
 .hero .btn {
     display: inline-block;
     padding: 10px 15px;
-    background: #191970;
+    background: #ffffff;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
@@ -94,7 +94,7 @@ main {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #191970;
+    background: #ffffff;
     color: #ffffff;
     position: relative;
     bottom: 0;
