@@ -8,13 +8,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #000000;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 /* Estilo do cabeçalho */
 header {
-    background: #191970;
+    background: #35424a;
     color: #ffffff;
     padding: 20px 0;
 }
@@ -71,4 +71,7 @@ main {
 
 h3 {
     margin-top: 20px;
-    color: #
+    color: #35424a;
+}
+
+/* Estilo do rodapé
