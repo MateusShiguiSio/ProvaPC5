@@ -55,6 +55,69 @@
             </div>
         </section>
     </main>
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de Imagens Espalhadas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaea;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .image-box {
+            margin: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .image-box:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-box">
+            <img src="imagem1.jpg" alt="Descrição da Imagem 1">
+        </div>
+        <div class="image-box">
+            <img src="imagem2.jpg" alt="Descrição da Imagem 2">
+        </div>
+        <div class="image-box">
+            <img src="imagem3.jpg" alt="Descrição da Imagem 3">
+        </div>
+        <div class="image-box">
+            <img src="imagem4.jpg" alt="Descrição da Imagem 4">
+        </div>
+        <div class="image-box">
+            <img src="imagem5.jpg" alt="Descrição da Imagem 5">
+        </div>
+        <div class="image-box">
+            <img src="imagem6.jpg" alt="Descrição da Imagem 6">
+        </div>
+    </div>
+</body>
+</html>
     <center>
     <iframe width="640" height="360" src="https://www.youtube.com/embed/ID_DO_VIDEO" frameborder="0" allowfullscreen></iframe>
 </center>
